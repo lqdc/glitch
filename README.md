@@ -10,6 +10,25 @@ Glitch art generator
 ![Glitched](https://raw.githubusercontent.com/lqdc/glitch/master/examples/hax0red_glitched.png)
 
 
+### Installation
+
+##### MacOS
+```
+$ git clone https://github.com/lqdc/glitch.git
+$ pip3 install ./glitch
+$ which glitchart
+/usr/local/bin/glitchart
+```
+
+##### Ubuntu
+```
+$git clone https://github.com/lqdc/glitch.git
+$sudo -H pip3 install ./glitch
+$ which glitchart
+/usr/local/bin/glitchart
+```
+
+### Usage
 ```
 usage: glitchart [-h] [--amount AMOUNT] [--seed SEED] [--n_iter N_ITER]
                  [--max_width MAX_WIDTH] [--output_path OUTPUT_PATH] [--png]
