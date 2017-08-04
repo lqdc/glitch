@@ -35,7 +35,7 @@ optional arguments:
   --output_path OUTPUT_PATH
                         Output image path. By default appends _glitched to
                         filename
-  --png
+  --png                 Convert to PNG. PNG format tends to be more stable.
+                        Normally guesses by output name.
   -q, --quiet           Silence stdout.
-
 ```

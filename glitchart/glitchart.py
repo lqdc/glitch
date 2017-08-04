@@ -2,7 +2,7 @@
 # -*- coding utf-8 -*-
 # @author: Roman Sinayev
 # @created: 2017-08-03 05:16:20
-# @modified: 2017-08-03 20:14:36
+# @modified: 2017-08-03 20:38:37
 # @filename: glitchart.py
 
 
@@ -129,7 +129,7 @@ def glitch_main():
     parser.add_argument('--n_iter', type=int, default=random.randint(0, 40), help='Number of pixels (windows) to change. Default random int 0-40.')
     parser.add_argument('--max_width', type=int, default=900, help='Maximum width of image before resizing and keeping aspect ratio. Default 900.')
     parser.add_argument('--output_path', type=str, default=None, help='Output image path. By default appends _glitched to filename')
-    parser.add_argument('--png', action='store_true')
+    parser.add_argument('--png', action='store_true', help='Convert to PNG. PNG format tends to be more stable. Normally guesses by output name.')
     parser.add_argument('-q', '--quiet', action='store_true', help='Silence stdout.')
     parsed = parser.parse_args()
 
