@@ -13,7 +13,7 @@ Glitch art generator
 ### Installation
 
 ##### MacOS
-```
+```sh
 $ git clone https://github.com/lqdc/glitch.git
 $ pip3 install ./glitch
 $ which glitchart
@@ -21,9 +21,9 @@ $ which glitchart
 ```
 
 ##### Ubuntu
-```
-$git clone https://github.com/lqdc/glitch.git
-$sudo -H pip3 install ./glitch
+```sh
+$ git clone https://github.com/lqdc/glitch.git
+$ sudo -H pip3 install ./glitch
 $ which glitchart
 /usr/local/bin/glitchart
 ```
