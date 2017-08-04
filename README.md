@@ -9,6 +9,15 @@ Glitch art generator
 #### Glitched
 ![Glitched](https://raw.githubusercontent.com/lqdc/glitch/master/examples/hax0red_glitched.png)
 
+#### Original
+![Original2](https://raw.githubusercontent.com/lqdc/glitch/master/examples/statue2.jpg)
+
+#### Glitched
+![Glitched2](https://raw.githubusercontent.com/lqdc/glitch/master/examples/statue_glitched2.png)
+
+![Glitched3](https://raw.githubusercontent.com/lqdc/glitch/master/examples/statue_glitched3.png)
+
+![Glitched4](https://raw.githubusercontent.com/lqdc/glitch/master/examples/statue_glitched4.png)
 
 ### Installation
 
