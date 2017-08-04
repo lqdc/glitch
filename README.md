@@ -1,12 +1,12 @@
-# glitch
+## glitchart
 Glitch art generator
 
-## Example
+### Example
 
-### Original
+#### Original
 ![Original](https://raw.githubusercontent.com/lqdc/glitch/master/examples/hax0red.jpg)
 
-### Glitched
+#### Glitched
 ![Glitched](https://raw.githubusercontent.com/lqdc/glitch/master/examples/hax0red_glitched.png)
 
 
