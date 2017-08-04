@@ -28,6 +28,13 @@ $ which glitchart
 /usr/local/bin/glitchart
 ```
 
+### Example Usage
+```sh
+$ glitchart ./examples/hax0red.jpg --n_iter 10 --output_path=~/out_glitched.png
+Data length: 20814
+Amount: 0.019709835692516275 | Seed: 0.5700552642437293 | n_iter: 10
+```
+
 ### Usage
 ```
 usage: glitchart [-h] [--amount AMOUNT] [--seed SEED] [--n_iter N_ITER]
@@ -58,3 +65,4 @@ optional arguments:
                         Normally guesses by output name.
   -q, --quiet           Silence stdout.
 ```
+

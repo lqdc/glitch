@@ -2,7 +2,7 @@
 # -*- coding utf-8 -*-
 # @author: Roman Sinayev
 # @created: 2017-08-03 05:16:20
-# @modified: 2017-08-03 20:38:37
+# @modified: 2017-08-03 20:56:48
 # @filename: glitchart.py
 
 
@@ -137,9 +137,11 @@ def glitch_main():
     data = resize(data, parsed.max_width)
     ext = '.png' if parsed.png else '.jpg'
     if parsed.output_path is not None:
-        out_path = parsed.out_path
+        out_path = parsed.output_path
     else:
         out_path = os.path.splitext(parsed.img_path)[0] + '_glitched' + ext
+
+    out_path = os.path.realpath(os.path.expanduser(out_path))
 
     retry_glitch(data, parsed.n_iter, parsed.amount, parsed.seed, out_path, verbose=(not parsed.quiet))
 
